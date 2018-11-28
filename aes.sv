@@ -20,7 +20,7 @@ module testbench();
     
     // test case
     initial begin   
-// Test case from FIPS-197 Appendix A.1, B
+	// test case from FIPS-197 Appendix A.1, B
         key       <= 128'h2B7E151628AED2A6ABF7158809CF4F3C;
         plaintext <= 128'h3243F6A8885A308D313198A2E0370734;
         expected  <= 128'h3925841D02DC09FBDC118597196A0B32;
